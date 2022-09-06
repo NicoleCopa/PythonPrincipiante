@@ -48,3 +48,16 @@ else:
 
 promedio = suma / competidores #sacamos promedio de tiempo
 print("El promedio es de:", promedio)
+
+"""
+-------------------------------------------------------------------------------------------
+                        P R U E B A  D E  E S C R I T O R I O
+-------------------------------------------------------------------------------------------
+competidores    tiempoR    nombre    tiempo    suma    minimo    ganador    i    promedio
+    -             -          -         -        -        -          -       -       -
+    5            2.7       MARIA      4.4      4.4      4.4       MARIA     1       -
+    5            2.7       TOMÁS      3.2      7.6      3.2       TOMÁS     2       -
+    5            2.7       JORGE      3.4      11.0     3.2       TOMÁS     3       -
+    5            2.7       JHON       5.1      16.1     3.2       TOMÁS     4       -
+    5            2.7       FLOR       4.2      20.3     3.2       TOMÁS     5     4.06
+"""
