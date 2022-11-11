@@ -7,17 +7,14 @@ import random
 lista1 = []
 lista2 = []
 lista3 = []
-suma = []
 
 for i in range (0,5):
     numero1 = random.randrange(100)
     numero2 = random.randrange(100)
     lista1.append(numero1)
     lista2.append(numero2)
-    suma.append(sum(lista1+lista2))
+    lista3.append(sum(lista1+lista2))
     i = i + 1
-    
-lista3.append(suma)
 
 print(lista1,lista2)
 print(lista3)
