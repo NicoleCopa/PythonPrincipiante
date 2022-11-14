@@ -22,7 +22,7 @@ for i in range (filas):
 for f in range(filas):
     #recorremos c en columna
     for c in range(columnas):
-        #si el valor de la posición f con c es igual, se pone un 1 ej: (0;0),(1;1),(2;2)... etc
+        #si el valor de la posición f es 0 o 1 / c es 0 o 14, entonces se pone 1
         if (f == 0) or (f == 4) or (c == 0) or (c == 14):
             tabla[f][c] = 1
         else:
